@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "snool",
+  "version": "${version}",
+  "name": "Snool",
+  "description": "is that frieza?",
+  "authors": [
+	"MoriyaShiine",
+	"Slazer",
+	"TheTaciturnOne"
+  ],
+  "contact": {
+	"homepage": "https://github.com/MoriyaShiine/snool",
+	"sources": "https://github.com/MoriyaShiine/snool",
+	"issues": "https://github.com/MoriyaShiine/snool/issues"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/snool/icon.png",
+  "environment": "*",
+  "entrypoints": {
+	"main": [
+	  "moriyashiine.snool.common.Snool"
+	],
+	"client": [
+	  "moriyashiine.snool.client.SnoolClient"
+	]
+  },
+  "depends": {
+	"fabricloader": "*",
+	"minecraft": "~1.21",
+	"java": ">=21",
+	"fabric": "*"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "entity.snool.ambient": {
+	"sounds": [
+	  "snool:entity/snool/say1",
+	  "snool:entity/snool/say2",
+	  "snool:entity/snool/say3",
+	  "snool:entity/snool/say4",
+	  "snool:entity/snool/say5",
+	  "snool:entity/snool/say6"
+	],
+	"subtitle": "subtitles.snool.entity.snool.ambient"
+  },
+  "entity.snool.death": {
+	"sounds": [
+	  "snool:entity/snool/death"
+	],
+	"subtitle": "subtitles.snool.entity.snool.death"
+  }
+}
